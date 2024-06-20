@@ -1,0 +1,43 @@
+.up{
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin-top: 7rem;
+}
+.up>table>tr>td>.lable{
+    text-align: end;
+    margin-right: 20rem;
+    margin-top: 2rem;
+}
+
+.up>table>tr>td{
+    color: white;
+    margin-top: 1.5rem;
+}
+.up>table>tr>td>.answer{
+    font-weight: normal;
+    margin-top: 2rem;
+}
+.up>table>tr>td>h3{
+    font-size: 2rem;
+}
+.profile-view{
+    border: 2px solid white;
+    width: 10rem;
+    height: 10rem;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+    background-color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.up>button{
+    background-color: white;
+    border: none;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 1rem;
+}

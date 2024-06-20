@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3266ff;
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+}
+nav{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    display: flex;
+    gap: 45rem;
+}
+nav>div>a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+nav>ul>li>a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}

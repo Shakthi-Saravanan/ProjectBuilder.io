@@ -1,0 +1,117 @@
+.form{
+    place-content: center;
+    display: flex;
+    gap: 10rem;
+    margin-top: 10rem;
+    list-style: none;
+    overflow: hidden;
+ }
+
+.login>ul{
+    list-style: none;
+    margin-top: -1rem;
+}
+.login>ul>li{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 3rem;
+}
+.login>ul>li>div>label{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    justify-self: flex-end;
+    /* border: 2px solid white; */
+}
+.login>ul>li>div{
+    display: flex;
+    gap: 1rem;
+    /* border: 2px solid white; */
+}
+
+.passwd>div{
+    margin-left: 1.5rem;
+}
+
+.uemail>div{
+    margin-left: -.05rem;
+}
+.uemail>div>input{
+    width: 20rem;
+}
+
+.passwd>div>input{
+    width: 20rem;
+}
+
+.login>ul>button{
+    margin-top: 3rem;
+    margin-left: 15rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: white;
+    border: none;
+}
+.login>ul>button>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.register>ul{
+    list-style: none;
+    /* margin-top: 1rem; */
+}
+.register>ul>li>div{
+    display: grid;
+    grid-template-columns: 50% auto;
+    /* place-items: center; */
+    margin-top: 1rem;
+}
+.register>ul>li>div>label{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    justify-self: flex-end;
+}
+.register>ul>li>div{
+    display: flex;
+    gap: 1rem;
+    /* border: 2px solid white; */
+}
+
+.passwd>div{
+    margin-left: 1.5rem;
+}
+
+.uemail>div{
+    margin-left: -.05rem;
+}
+.uemail>div>input{
+    width: 20rem;
+}
+
+.passwd>div>input{
+    width: 20rem;
+}
+
+.register>ul>button{
+    margin-top: 3rem;
+    margin-left: 15rem;
+    width: 8rem;
+    height: 3rem;
+    background-color: white;
+    border: none;
+}
+.register>ul>button>a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.line-sep{
+    width: 0.1rem;
+    height: 30rem;
+    background-color: white;
+}
